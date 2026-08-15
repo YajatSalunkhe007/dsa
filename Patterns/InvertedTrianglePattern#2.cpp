@@ -1,3 +1,6 @@
+/* This is the Inverted Triangle Pattern for Characters.*/
+
+
 #include <iostream>
 using namespace std;
 int main (){
@@ -7,7 +10,7 @@ int main (){
             cout << " ";
         }
         for (int j=0 ; j < n-i ; j++){ // n-i times numbers
-            cout << i+1;
+            cout << char(i+65);
         }
         cout << endl;
     }
