@@ -108,6 +108,7 @@ int main()
         visited[i] = 0;
     }
 
+    
     printf("\nDFS Traversal: ");
     DFS(start);
 

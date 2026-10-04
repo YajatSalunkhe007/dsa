@@ -132,6 +132,7 @@ int main()
                 displayRecords();
                 break;
 
+                
             case 4:
                 printf("Program ended.\n");
                 break;
